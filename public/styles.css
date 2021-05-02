@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background: linear-gradient(0deg, hsla(50, 90%, 88%, 1) 0%, hsla(192, 80%, 88%, 1) 0%, hsla(354, 87%, 88%, 1) 100%);
+    font-family: Lato;
+    background-image: url(https://i.pinimg.com/564x/5c/36/5c/5c365c4fd47dfdc6bb5f0a9038d7f347.jpg);
+}
+        
+.title-block {
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255);
+    width: 103%;
+    margin-left: -10px;
+    font-size: 20px;
+    color: rgb(23, 21, 18);
+    text-transform: uppercase;
+}
+        
+.nav-title {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: rgb(23, 21, 18);
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: rgb(255, 255, 244);
+    color: rgb(81, 74, 61);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 100%;
+}
+
+.nav li{
+    display:inline;
+    
+}
+
+.nav a{
+    display:inline-block;
+    padding:5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(81, 74, 61);
+}
+
+h2 {
+  color: rgb(23, 21, 18);
+  text-transform: uppercase
+}
+
+.title {
+  color: rgb(1, 1, 1);
+}
+
+.section {
+  background-color: rgb(255, 244, 255);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 1% 10% 3% 10%;
+  line-height: 150%;
+  font-size: 130%;
+}
+
+
+.credit {
+  font-size: 90%;
+  color: rgb(255, 255, 255);
+}
+
+.section ul {
+  list-style: none;
+}
+
+.section li {
+  color: blue;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
