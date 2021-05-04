@@ -15,8 +15,13 @@ app.get('/home', (req, res) => {
   res.sendFile(__dirname + '/viewing/index.html');
 });
 
-app.get('/poetry', (req, res) => {
+app.get('/poems', (req, res) => {
   res.sendFile(__dirname + '/viewing/poetry.html');
+});
+
+app.get('/poems/:name', (req, res) => {
+  let title = req.params.name;
+  res.sendFile(__dirname + '/viewing/poems/' + title + '.html');
 });
 
 app.listen(3000, () => {
