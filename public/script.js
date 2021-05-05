@@ -17,7 +17,7 @@ class Header extends HTMLElement {
                 <a href="/home">Portfolio of Dhruti K</a>
             </li>
             <li>
-                <a href="singing.html">Singing</a>
+                <a href="singing">Singing</a>
             </li>
             <li>
                 Page 4

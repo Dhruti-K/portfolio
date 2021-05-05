@@ -7,16 +7,13 @@ app.use('/public', express.static(__dirname + '/public'));
 
 //send the html file for the homepage
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/viewing/index.html');
+  res.sendFile(__dirname + '/viewing/home.html');
 });
 
 //homepage, once again
-app.get('/home', (req, res) => {
-  res.sendFile(__dirname + '/viewing/index.html');
-});
-
-app.get('/poems', (req, res) => {
-  res.sendFile(__dirname + '/viewing/poetry.html');
+app.get('/:name', (req, res) => {
+  let name = req.params.name;
+  res.sendFile(__dirname + '/viewing/' + name + '.html');
 });
 
 app.get('/poems/:name', (req, res) => {
