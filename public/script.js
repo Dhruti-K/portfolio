@@ -44,7 +44,7 @@ class Footer extends HTMLElement {
           <br>
           <br>
           <p>
-            This website was made from scratch, using HTML, CSS, and JavaScript, by Dhruti.
+            This website was made from scratch, using HTML, CSS, and JavaScript, as well as Node.js and Express.js, by Dhruti.
           </p>
           <br>
         </div>`;
